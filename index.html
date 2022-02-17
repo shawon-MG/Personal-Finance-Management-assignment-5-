@@ -9,6 +9,60 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
 </head>
 <body>
-    <h1>Bootstrap Added</h1>
+    <h1 class="d-flex d-sm-flex justify-content-center my-4">Personal Finance</h1>
+    <div class="container container-sm">
+        <div class="row"> <!-- grid with 2 cols -->
+            <!-- First col with a picture -->
+          <div class="col col-sm"> 
+            <img src="image/manage-money-concept-illustration_114360-8079.jpg" alt="">
+          </div>
+             <!-- Second Col with various inputs and calculation -->
+          <div class="col col-sm">
+            <div class="col-12 col-md-12 d-flex justify-content-center mt-4">
+                <h5>Income</h5>
+            </div>
+            <div class="col-12 col-md-12 d-flex justify-content-center md-4">
+                <span>Income:</span>
+                <input type="number" name="" id="">
+            </div>
+            <div class="col-12 col-md-12 d-flex justify-content-center mt-4">
+                <h5>Expenses</h5>
+            </div>
+            <div class="col-12 col-md-12 d-flex justify-content-center md-4">
+                <span>Food: </span>
+                <input type="number" name="" id="">
+            </div>
+            <div class="col-12 col-md-12 d-flex justify-content-center my-4">
+                <span>Rent: </span>
+                <input type="number" name="" id="">
+            </div>
+            <div class="col-12 col-md-12 d-flex justify-content-center my-4">
+                <span>Clothes: </span>
+                <input type="number" name="" id="">
+            </div>
+            <div class="col-12 col-md-12 d-flex justify-content-center my-4">
+                <button type="button" class="btn btn-success btn-lg">Calculate</button>
+            </div>
+            <div class="col-12 col-md-12 d-flex justify-content-center mt-4">
+                <h5>Total Expenses: <span id="total-expenses"></span></h5>
+            </div>
+            <div class="col-12 col-md-12 d-flex justify-content-center md-4">
+                <h5>Balance: <span id="balance"></span></h5>
+            </div>
+            <div class="col-12 col-md-12 d-flex justify-content-evenly my-4">
+                <span>Save: </span>
+                <input type="number" name="" id=""> 
+                <h5> % </h5>
+                <button type="button" class="btn btn-success">Calculate</button>
+            </div>
+            <div class="col-12 col-md-12 d-flex justify-content-center mt-4">
+                <h5>Saving Amount: <span id="saving-amount"></span></h5>
+            </div>
+            <div class="col-12 col-md-12 d-flex justify-content-center md-4">
+                <h5>Remaining Balance: <span id="remaining-balance"></span></h5>
+            </div>
+          </div>
+        </div>
+    </div>
 </body>
 </html>
